@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fruit Personality Quiz",
-  description: "A personality quiz created by Rae!",
+  title: "Raeann's Portfolio",
+  description: "All about Raeann",
 };
 
 export default function RootLayout({
