@@ -1,7 +1,8 @@
 export default function Welcome() {
   return (
-    <div>
+    <div id="loader-container" className="bg-black inline-block align-middle">
       <svg
+        id="loader"
         width="275"
         height="59"
         viewBox="0 0 275 59"
