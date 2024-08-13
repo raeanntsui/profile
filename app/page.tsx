@@ -9,8 +9,7 @@ import ProductCard from "./components/ProductCard";
 export default function Home() {
   return (
     <main>
-      <div className="bg-red-100">
-        <h1 className="bg-red-100">Hi There! My name is Raeann Tsui.</h1>
+      <div>
         <Link href="/users">Users</Link>
         <ProductCard />
         {/* <Photo />
