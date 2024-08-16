@@ -27,10 +27,16 @@ export default function Home() {
             <div>
               <h1>Raeann Tsui</h1>
             </div>
-            <div className="flex-col">
-              <a href="#aboutme">About Me</a>
-              <a href="#whatido">What I Do</a>
-              <a href="#portfolio">Portfolio</a>
+            <div className="columns-1">
+              <div>
+                <a href="#aboutme">About Me</a>
+              </div>
+              <div>
+                <a href="#whatido">What I Do</a>
+              </div>
+              <div>
+                <a href="#portfolio">Portfolio</a>
+              </div>
             </div>
           </div>
           <div
