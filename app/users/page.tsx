@@ -1,5 +1,6 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
+import LikeButton from "../likeButton";
 
 interface User {
   id: number;
@@ -9,25 +10,16 @@ interface User {
 const UsersPage = () => {
   //   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   //   const users: User[] = await res.json();
-  const [likes, setLikes] = React.useState(0);
-
-  function addLikes() {
-    setLikes(likes + 1);
-    console.log("likes", likes);
-  }
-
   return (
     <>
       <h1 className="menu">Users</h1>
-      <p>{new Date().toLocaleTimeString()}</p>
+      {/* <p>Time of rerender:{new Date().toLocaleTimeString()}</p> */}
       {/* <table>
         {users.map((user) => (
           <li key={user.id}>{user.name}</li>
         ))}
       </table> */}
-      <button className="btn btn-secondary" onClick={addLikes}>
-        Likes {likes}
-      </button>
+      {/* <LikeButton /> */}
     </>
   );
 };

@@ -1,3 +1,7 @@
 export default function Portfolio() {
-  return <div>Portfolio</div>;
+  return (
+    <div id="portfolio" className="my-40">
+      Portfolio
+    </div>
+  );
 }

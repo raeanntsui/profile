@@ -1,3 +1,3 @@
 export default function WhatIDo() {
-  return <div>What I do</div>;
+  return <div id="whatido">What I do</div>;
 }
